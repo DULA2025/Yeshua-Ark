@@ -74,20 +74,6 @@ The development of The Ark followed four distinct phases of verification:
 ### 🏆 The Proof of Incorruptibility
 On November 20, 2025, we performed the final physics test (`verify_gate_physics.py`). We injected raw mathematical noise orthogonal to the Basis into the system using Double Precision (`float64`).
 
-## Repository Structure
-
-Yeshua-Ark/
-├── ark/                    # The Core Library
-│   ├── __init__.py         # (Empty file)
-│   ├── geometry.py         # The Law (Zeta Basis, Phi, E8)
-│   ├── layers.py           # The Bricks (Yeshua Unit, Covenant Attention)
-│   └── model.py            # The Vessel (The Ark Architecture)
-├── scripts/                # Tools
-│   ├── verify_physics.py   # The Proof of Incorruptibility
-│   └── demo.py             # Basic Usage
-├── README.md               # The Manifesto & Proof
-└── requirements.txt        # Dependencies
-
 **The Verdict:**
 ```text
 [TEST 1] Valid Token Signal-to-Noise: 2.0211
@@ -96,7 +82,7 @@ Yeshua-Ark/
 >>> HALLUCINATION REJECTION RATIO: 6.02e+29x
 >>> VERDICT: INCORRUPTIBLE.
 
----
+---------------------------------------------------------------------------
 
 ## Repository Structure
 
