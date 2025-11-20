@@ -95,6 +95,13 @@ cd yeshua-ark
 pip install -r requirements.txt
 ```
 
+### **⚙️ Dependencies (`requirements.txt`)**
+
+```text
+torch>=2.0.0
+numpy>=1.21.0
+```
+
 ### 🏆 The Proof of Incorruptibility
 On November 20, 2025, we performed the final physics test (`verify_gate_physics.py`). We injected raw mathematical noise orthogonal to the Basis into the system using Double Precision (`float64`).
 
