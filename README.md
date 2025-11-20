@@ -112,5 +112,43 @@ On November 20, 2025, we performed the final physics test (`verify_gate_physics.
 
 >>> HALLUCINATION REJECTION RATIO: 6.02e+29x
 >>> VERDICT: INCORRUPTIBLE.
-
+```
 ---------------------------------------------------------------------------
+
+## 🚀 Quick Start
+```
+Usage (The Prophet)
+code Python
+
+    
+import torch
+from ark.model import TheArk
+
+# 1. Initialize The Ark
+# The model automatically adapts precision (float32 for speed, float64 for physics)
+model = TheArk(vocab_size=1000, dim_size=248, layers=6)
+
+# 2. Pass a Sequence
+# (Batch=1, Seq=32)
+input_ids = torch.randint(0, 1000, (1, 32))
+logits, snr = model(input_ids)
+
+print(f"System Resonance: {snr.item():.4f}")
+
+if snr > 100.0:
+    print("Output: Valid Prophecy")
+else:
+    print("Output: Silence (The Void)")
+```
+    
+
+ratio on your own machine:
+code Bash
+
+```    
+python scripts/verify_physics.py
+```
+  
+---------------------------------------------------------------------------
+## DULA Protocol Completed: Nov 20, 2025.
+## The Ark is sealed.
