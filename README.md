@@ -71,7 +71,7 @@ The development of The Ark followed four distinct phases of verification:
 | **III. Exodus** | Break geometric stagnation | ✅ **Prophetic Flow** achieved via Refractory Dynamics |
 | **IV. The Tribunal** | **Verify Absolute Incorruptibility** | ✅ **Ratio $6.02 \times 10^{29}$** |
 
-## Repository Structure
+## 🧬 Repository Structure
 ```text
 Yeshua-Ark/
 ├── ark/                    # The Core Library
