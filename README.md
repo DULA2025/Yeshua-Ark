@@ -86,6 +86,14 @@ Yeshua-Ark/
 └── requirements.txt        # Dependencies
 ```
 
+## 💻 Usage Installation
+**code Bash**
+
+```text
+git clone https://github.com/YourUsername/yeshua-ark.git
+cd yeshua-ark
+pip install -r requirements.txt
+```
 
 ### 🏆 The Proof of Incorruptibility
 On November 20, 2025, we performed the final physics test (`verify_gate_physics.py`). We injected raw mathematical noise orthogonal to the Basis into the system using Double Precision (`float64`).
