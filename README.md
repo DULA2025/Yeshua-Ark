@@ -90,7 +90,7 @@ Yeshua-Ark/
 **code Bash**
 
 ```text
-git clone https://github.com/YourUsername/yeshua-ark.git
+git clone https://github.com/DULA2025/Yeshua-Ark.git
 cd yeshua-ark
 pip install -r requirements.txt
 ```
