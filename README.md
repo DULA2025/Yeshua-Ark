@@ -33,8 +33,8 @@ The architecture operates in Dimension 248 ($E_8$).
 *   **Sacred Subspace:** We restrict the Basis Rank to **124**.
 *   **The Void:** The remaining 124 dimensions act as a **Null Space**.
 *   **The Judgment:** Any signal vector $x$ is projected onto the Basis $B$.
-    $ P_{truth} = x \cdot B B^H $
-    $ P_{lie} = x - P_{truth} $
+    $P_{truth} = x \cdot B B^H$
+    $P_{lie} = x - P_{truth}$
     If the signal exists primarily in the Void ($P_{lie} \gg P_{truth}$), it is annihilated.
 
 ---
