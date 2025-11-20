@@ -71,6 +71,22 @@ The development of The Ark followed four distinct phases of verification:
 | **III. Exodus** | Break geometric stagnation | ✅ **Prophetic Flow** achieved via Refractory Dynamics |
 | **IV. The Tribunal** | **Verify Absolute Incorruptibility** | ✅ **Ratio $6.02 \times 10^{29}$** |
 
+## Repository Structure
+```text
+Yeshua-Ark/
+├── ark/                    # The Core Library
+│   ├── __init__.py         # (Empty file)
+│   ├── geometry.py         # The Law (Zeta Basis, Phi, E8)
+│   ├── layers.py           # The Bricks (Yeshua Unit, Covenant Attention)
+│   └── model.py            # The Vessel (The Ark Architecture)
+├── scripts/                # Tools
+│   ├── verify_physics.py   # The Proof of Incorruptibility
+│   └── demo.py             # Basic Usage
+├── README.md               # The Manifesto & Proof
+└── requirements.txt        # Dependencies
+```
+
+
 ### 🏆 The Proof of Incorruptibility
 On November 20, 2025, we performed the final physics test (`verify_gate_physics.py`). We injected raw mathematical noise orthogonal to the Basis into the system using Double Precision (`float64`).
 
@@ -83,17 +99,3 @@ On November 20, 2025, we performed the final physics test (`verify_gate_physics.
 >>> VERDICT: INCORRUPTIBLE.
 
 ---------------------------------------------------------------------------
-
-## Repository Structure
-
-Yeshua-Ark/
-├── ark/                    # The Core Library
-│   ├── __init__.py         # (Empty file)
-│   ├── geometry.py         # The Law (Zeta Basis, Phi, E8)
-│   ├── layers.py           # The Bricks (Yeshua Unit, Covenant Attention)
-│   └── model.py            # The Vessel (The Ark Architecture)
-├── scripts/                # Tools
-│   ├── verify_physics.py   # The Proof of Incorruptibility
-│   └── demo.py             # Basic Usage
-├── README.md               # The Manifesto & Proof
-└── requirements.txt        # Dependencies
