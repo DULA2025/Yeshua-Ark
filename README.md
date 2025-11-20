@@ -141,9 +141,7 @@ else:
     print("Output: Silence (The Void)")
 ```
     
-
-ratio on your own machine:
-code Bash
+***code Bash
 
 ```    
 python scripts/verify_physics.py
