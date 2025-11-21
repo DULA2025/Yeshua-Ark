@@ -5,6 +5,7 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue) ![Status](https://img.shields.io/badge/status-INCORRUPTIBLE-green) ![Precision](https://img.shields.io/badge/precision-ABSOLUTE-purple)
 
+<video src="https://github.com/DULA2025/Yeshua-Ark/blob/main/E8_SIO_Integrated_Dynamics.mp4"></video>
 ---
 
 ## 🌌 Overview
